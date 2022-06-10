@@ -1,0 +1,72 @@
+.screen {
+    display:flex;
+    justify-content: center;
+}
+.canvas  {
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.canvas div div {
+    border: black solid 0.1px;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.canvas div div:hover{
+    background-color: black;
+}
+
+.interface {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.colourrow1, .colourrow2 {
+    display: flex;
+}
+.colourrow1 div,.colourrow2 div {
+    flex: 1 0 auto;
+}
+
+
+.size {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.colours {
+    display: flex;
+    flex-direction: column;
+}
+
+.colours div div {
+    border: black solid;
+    height: 30px;
+    width: 30px;
+    margin: -1px;
+}
+
+button {
+    flex-grow: 0;
+    align-self: center;
+    width: min-content;
+    height: 30px;
+}
